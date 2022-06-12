@@ -6,5 +6,8 @@
   "name": "MT-EASTMARK",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.52.3"
+  }
 }
