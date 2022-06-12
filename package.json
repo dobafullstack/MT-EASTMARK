@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "scss": "sass assets/styles/scss:assets/styles/css --no-source-map",
+    "scss": "sass assets/styles/scss/style.scss:assets/styles/css/style.css --no-source-map",
     "scss-w": "sass --watch assets/styles/scss:assets/styles/css --no-source-map"
   },
   "name": "MT-EASTMARK",

@@ -6,6 +6,21 @@ $brown-color: #b17030;
   background-image: linear-gradient(to right, $secondary-color, $brown-color);
 }
 
+$tablet-1: 768px;
+$tablet-2: 1024px;
+
+@mixin tablet-sm {
+  @media screen and (min-width: $tablet-1) and (max-width: calc($tablet-2 - 1)) {
+    @content;
+  }
+}
+
+@mixin tablet-md {
+  @media screen and (min-width: $tablet-2) {
+    @content;
+  }
+}
+
 html,
 body,
 div,
